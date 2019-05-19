@@ -1,19 +1,19 @@
 # 2018 / 11월 Archive
 
-- [그런 REST API로 괜찮은가](https://tv.naver.com/v/2292653)  #til/REST
+- [그런 REST API로 괜찮은가](https://tv.naver.com/v/2292653)  #REST
   - Self-descriptive(확장 가능한 커뮤니케이션) : 서버나 클라이언트가 변경되어더라도 오고가는 메시지는 언제나 self-descriptive 하므로 언제나 해석이 가능하다.  
   - HATEOAS(애플리케이션 상태 전이의 late binding) : 어디서 어디로 전이가 가능한지 미리 결정되지 않는다. 어떤 상태로 전이가 완료되고 나서야 그 다음 전이될 수 있는 상태가 결정된다. 쉽게 말해서: 링크는 동적으로 변경될 수 있다.  
   - REST를 따르겠다면, Self-descriptive와 HATEOAS를 만족시켜한다.  
       - Self-descriptive는 custom media type이나 profile link relation 등으로 만족시킬 수 있다.  
       - HATEOAS는 HTTP 헤더나 본문에 링크를 담아 만족시킬 수 있다.  
-- ['7년 걸쳐 AWS로 이전', 넷플릭스 엔지니어가 설명하는 클라우드 여정](http://www.ciokorea.com/news/39567)  #til/aws
-- [카카오 경력공채 면접 후기](https://encyphered.github.io/blog/note/2018/09/26/kakao-interview-review.html) 카카오 경력 공채는 어떤 프로세스로 진행되는지 궁금했는데 지원부터 최종까지 정리가 아주 잘 되어있다. 카카오뿐만 아니라 여러 기업에 이직 시 많은 도움이 될 듯하다.  #til/이직
-- [프로그래머 추천도서 64선 / 구입 링크 및 개정판 정리](https://iostream.tistory.com/64) 예전부터 유명했던 프로그래머 추천도서 목록을 깔끔하게 구매 링크까지 최신화 및 정리해서 올려주셨다.   #til/도서
-- [TDD 참관 후기](https://www.reimaginer.me/entry/visit-tdd) 규원님 TDD 참관 후기를 여럿 봤는데 그중 가장 잘 정리된 글인 것 같다. 참관하지는 않았지만 글만 읽고도 개략적인 프로세스를 알 수 있다. 나도 언제 한번 꼭 참석해보고 싶은데...  #til/TDD
-- [(번역) RESTful API Designing guidelines — The best practices](https://wayhome25.github.io/etc/2017/11/26/restful-api-designing-guidelines/) RESTful API 디자인 가이드라인 번역 글로 군더더기 없이 핵심만 담은 글. 기본적인 내용이지만, 다시 한번 정리해보는 느낌으로 읽어보길 추천한다.  #til/REST
-- [(번역) 웹 아키텍쳐 입문](https://rhostem.github.io/posts/2018-07-22-web-architecture-101/) 처음에 그림만 보고는 이게 뭐야? 라고 생각했는데 각각에 대해 기본적인 내용을 소개해줘서 전체 틀을 이해하는데 도움이 되었다. 소개되는 아키텍처 방식으로 개발을 해보고 싶다. 개인 프로젝트를 통해서라도 해보고 싶을 정도이다. (Redis, ElasticSearch, Kafka, AWS 등으로 큰 틀을 구성해보면 재밌을 것같다.)   #til/web
-- [Django의 배신 - 주니어 개발자의 Django 삽질기](https://www.slideshare.net/EunhyangKim2/ss-118560530) 장고 개발자는 아니지만, 출근길에 202페이지나 되는 발표자료를 시간 가는 줄 모르고 봤다. 재밌게 잘 만든 것 같고 꼭 파이썬을 개발하지 않아도 ORM은 다른 언어에서도 사용하니 여러모로 도움 될 것 같다.  #til/주니어개발자
-- [(번역) 지난 5년 동안 소프트웨어 개발자로서 내가 배운 것들](https://rhostem.github.io/posts/2017-10-29-what-i-ve-learned-over-5-years-as-a-software-developer/)  #til/개발팁
+- ['7년 걸쳐 AWS로 이전', 넷플릭스 엔지니어가 설명하는 클라우드 여정](http://www.ciokorea.com/news/39567)  #aws
+- [카카오 경력공채 면접 후기](https://encyphered.github.io/blog/note/2018/09/26/kakao-interview-review.html) 카카오 경력 공채는 어떤 프로세스로 진행되는지 궁금했는데 지원부터 최종까지 정리가 아주 잘 되어있다. 카카오뿐만 아니라 여러 기업에 이직 시 많은 도움이 될 듯하다.  #이직
+- [프로그래머 추천도서 64선 / 구입 링크 및 개정판 정리](https://iostream.tistory.com/64) 예전부터 유명했던 프로그래머 추천도서 목록을 깔끔하게 구매 링크까지 최신화 및 정리해서 올려주셨다.   #도서
+- [TDD 참관 후기](https://www.reimaginer.me/entry/visit-tdd) 규원님 TDD 참관 후기를 여럿 봤는데 그중 가장 잘 정리된 글인 것 같다. 참관하지는 않았지만 글만 읽고도 개략적인 프로세스를 알 수 있다. 나도 언제 한번 꼭 참석해보고 싶은데...  #TDD
+- [(번역) RESTful API Designing guidelines — The best practices](https://wayhome25.github.io/etc/2017/11/26/restful-api-designing-guidelines/) RESTful API 디자인 가이드라인 번역 글로 군더더기 없이 핵심만 담은 글. 기본적인 내용이지만, 다시 한번 정리해보는 느낌으로 읽어보길 추천한다.  #REST
+- [(번역) 웹 아키텍쳐 입문](https://rhostem.github.io/posts/2018-07-22-web-architecture-101/) 처음에 그림만 보고는 이게 뭐야? 라고 생각했는데 각각에 대해 기본적인 내용을 소개해줘서 전체 틀을 이해하는데 도움이 되었다. 소개되는 아키텍처 방식으로 개발을 해보고 싶다. 개인 프로젝트를 통해서라도 해보고 싶을 정도이다. (Redis, ElasticSearch, Kafka, AWS 등으로 큰 틀을 구성해보면 재밌을 것같다.)   #web
+- [Django의 배신 - 주니어 개발자의 Django 삽질기](https://www.slideshare.net/EunhyangKim2/ss-118560530) 장고 개발자는 아니지만, 출근길에 202페이지나 되는 발표자료를 시간 가는 줄 모르고 봤다. 재밌게 잘 만든 것 같고 꼭 파이썬을 개발하지 않아도 ORM은 다른 언어에서도 사용하니 여러모로 도움 될 것 같다.  #주니어개발자
+- [(번역) 지난 5년 동안 소프트웨어 개발자로서 내가 배운 것들](https://rhostem.github.io/posts/2017-10-29-what-i-ve-learned-over-5-years-as-a-software-developer/)  #개발팁
   1. 자기 자신을 깊은 곳까지 밀어넣어라  
   2. 겸손하라 : 한때는 같은 처지였다는 것을 공감하자!  
   3. 타인의 얘기를 잘 듣는 열린 자세를 가져라. 하지만 자기주장을 펴는 걸 두려워하지는 마라.  
@@ -23,15 +23,15 @@
        - 강력한 커뮤니티를 가지고 있는가?  
        - 테스트가 잘 되었는가?  
   5. 일과 놀이의 균형 : 휴식은 필수다. 충분한 휴식이 없다면 추상적인 지식과 일을 배울 수 있는 능력은 자연스럽게 줄어들게 된다.  
-- [2018 OKKYCON - The Real TDD 후기](https://github.com/david-learner/java-study/blob/master/2018OKKYCON/readme.md) 글을 읽으면 발표 장면이 떠오를 정도로 상세하다. 컨퍼런스가 끝난 지 2주가 지난 시점에서 잊지 않기 위해 다시 한번 상기시키기 좋은 것 같다. 의식적으로 오랜 시간에 걸쳐 연습하자 TDD! #til/TDD
-- [안정적인 서비스 운영을 위한 서버 모니터링 #1](http://blog.dramancompany.com/2015/12/%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%9A%B4%EC%98%81%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B2%84-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-1/), [안정적인 서비스 운영을 위한 서버 모니터링 #2](http://blog.dramancompany.com/2015/12/%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%9A%B4%EC%98%81%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B2%84-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-2/) 1편은 APM이고 2편은 로그 관리 시스템(ELK Stack)에 대해서 다룬다. 서버 사이드 개발자라면 필수 of 필수!   #til/server
-- [단위 테스트는 왜 해야할까](https://webcache.googleusercontent.com/search?q=cache:nWzJdt9_AtwJ:https://feel5ny.github.io/2017/12/08/TDD_01/+&cd=4&hl=ko&ct=clnk&gl=kr) TDD나 단위테스트에서 사용되는 키워드들을 잘 정리해놓은 글. 또한 최근에 Dapp 개발 때문에 mocha를 사용해서 자바스크립트 테스트코드를 작성할 일이 있는데 should.js, sinon 등 몰랐던 라이브러리까지 알게 되어 좋았다.  #til/UnitTest
-- [Vue.js 살펴보기](http://blog.jeonghwan.net/vue/2017/03/27/vue.html) 최근에 Vue를 공부하면서 여러 블로그 글들을 참조하고 있는데 아주 잘 정리된 글을 발견하였다.  #til/vue
-- [(번역) 웹 캐싱의 숨겨진 요소들](https://mingrammer.com/translation-the-hidden-components-of-web-caching/?fbclid=IwAR2sGeVtf3sIpZJRtugnSoYVfWd1sSaw-zY2MgifrSXI-VRP8eCcVWh5Zbw) 캐싱은 하드웨어와 소프트웨어부터 네트워킹 장비와 서비스에까지 이르는 파이프라인의 모든 단계에서 발생한다. 즉, 성능을 향상 시킬 수 있는 요소들이 정말 많다는 의미. 이 글을 통해 여러 캐싱의 핵심 키워드를 얻을 수 있다.  #til/web
-- [GitHub의 Merge, Squash and Merge, Rebase and Merge 정확히 이해하기](https://meetup.toast.com/posts/122) Squash and Merge는 처음 들어봤는데 이 글에서 사용 예시를 들며 소개하는 것처럼 Git Flow에서 develop-feature 브렌치간 머지 시 매우 유용할 것 같다.  #til/git
-- [세 가지 DI 컨테이너로 향하는 저녁 산책](http://www.nextree.co.kr/p11247/) Spring 3대 핵심개념 중의 하나인 DI(Dependency Injection)에 대해 조금 깊이 있는 글.  #til/spring
-- [나는 과연 SW Engineer라고 말할 수 있을까?](http://kimjmin.net/2018/10/2018-10-am-i-engineer/) `Elastic에서 Community Engineer라는 직책을 맡으며 개발을 하지 않아 소프트웨어 엔지니어에서 멀어질 것 같은 불안감이 들었지만, 좋은 동료들로 인해 극복해낼 수 있을 것 같다.` 업무의 경중을 가리지 않고 서로 존중하는 elastic의 문화가 너무 부러워지는 글. #til/문화
-- [개발자는 어떻게 성장해야 할까?](https://www.slideshare.net/charsyam2/how-to-become-better-engineer) 꼭 실천하자!  #til/성장
+- [2018 OKKYCON - The Real TDD 후기](https://github.com/david-learner/java-study/blob/master/2018OKKYCON/readme.md) 글을 읽으면 발표 장면이 떠오를 정도로 상세하다. 컨퍼런스가 끝난 지 2주가 지난 시점에서 잊지 않기 위해 다시 한번 상기시키기 좋은 것 같다. 의식적으로 오랜 시간에 걸쳐 연습하자 TDD! #TDD
+- [안정적인 서비스 운영을 위한 서버 모니터링 #1](http://blog.dramancompany.com/2015/12/%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%9A%B4%EC%98%81%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B2%84-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-1/), [안정적인 서비스 운영을 위한 서버 모니터링 #2](http://blog.dramancompany.com/2015/12/%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%9A%B4%EC%98%81%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B2%84-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-2/) 1편은 APM이고 2편은 로그 관리 시스템(ELK Stack)에 대해서 다룬다. 서버 사이드 개발자라면 필수 of 필수!   #server
+- [단위 테스트는 왜 해야할까](https://webcache.googleusercontent.com/search?q=cache:nWzJdt9_AtwJ:https://feel5ny.github.io/2017/12/08/TDD_01/+&cd=4&hl=ko&ct=clnk&gl=kr) TDD나 단위테스트에서 사용되는 키워드들을 잘 정리해놓은 글. 또한 최근에 Dapp 개발 때문에 mocha를 사용해서 자바스크립트 테스트코드를 작성할 일이 있는데 should.js, sinon 등 몰랐던 라이브러리까지 알게 되어 좋았다.  #UnitTest
+- [Vue.js 살펴보기](http://blog.jeonghwan.net/vue/2017/03/27/vue.html) 최근에 Vue를 공부하면서 여러 블로그 글들을 참조하고 있는데 아주 잘 정리된 글을 발견하였다.  #vue
+- [(번역) 웹 캐싱의 숨겨진 요소들](https://mingrammer.com/translation-the-hidden-components-of-web-caching/?fbclid=IwAR2sGeVtf3sIpZJRtugnSoYVfWd1sSaw-zY2MgifrSXI-VRP8eCcVWh5Zbw) 캐싱은 하드웨어와 소프트웨어부터 네트워킹 장비와 서비스에까지 이르는 파이프라인의 모든 단계에서 발생한다. 즉, 성능을 향상 시킬 수 있는 요소들이 정말 많다는 의미. 이 글을 통해 여러 캐싱의 핵심 키워드를 얻을 수 있다.  #web
+- [GitHub의 Merge, Squash and Merge, Rebase and Merge 정확히 이해하기](https://meetup.toast.com/posts/122) Squash and Merge는 처음 들어봤는데 이 글에서 사용 예시를 들며 소개하는 것처럼 Git Flow에서 develop-feature 브렌치간 머지 시 매우 유용할 것 같다.  #git
+- [세 가지 DI 컨테이너로 향하는 저녁 산책](http://www.nextree.co.kr/p11247/) Spring 3대 핵심개념 중의 하나인 DI(Dependency Injection)에 대해 조금 깊이 있는 글.  #spring
+- [나는 과연 SW Engineer라고 말할 수 있을까?](http://kimjmin.net/2018/10/2018-10-am-i-engineer/) `Elastic에서 Community Engineer라는 직책을 맡으며 개발을 하지 않아 소프트웨어 엔지니어에서 멀어질 것 같은 불안감이 들었지만, 좋은 동료들로 인해 극복해낼 수 있을 것 같다.` 업무의 경중을 가리지 않고 서로 존중하는 elastic의 문화가 너무 부러워지는 글. #문화
+- [개발자는 어떻게 성장해야 할까?](https://www.slideshare.net/charsyam2/how-to-become-better-engineer) 꼭 실천하자!  #성장
     - 취업/이직 시에 가장 중요한 것은? `실력!`  
     - 지금 얼마나 알고 있는지  
       - 얼마나 빨리 배우는지   
@@ -58,18 +58,18 @@
       - `나중에 우리팀에 함께 일하자고 추천할 수 있는 사람`  
     - 이런 것들이 결국은 `기술적 호기심`에서 시작  
     - (추가) 알고리즘 테스트도 무조건 준비  
-- [개발자를 위한 인프라 기초 총정리](https://futurecreator.github.io/2018/11/09/it-infrastructure-basics/) 하드웨어, 네트워크, OS, 미들웨어, 가상화, 도커 등 인프라의 기초 지식들의 핵심을 아주 깔끔하게 정리한 글. 서버 사이드 개발자라면 이미 알고 있는 내용이 대부분이겠지만 다시 한번 정리한다는 생각으로 읽으면 많은 도움이 될 것 같다.  #til/인프라
-- [1500개의 테스트를 작성하며 나는 무엇을 얻었나](https://medium.com/@minhyeok4dev/1500%EA%B0%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EB%A9%B0-%EB%82%98%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%84-%EC%96%BB%EC%97%88%EB%82%98-62b9facd53d8)  #til/test
+- [개발자를 위한 인프라 기초 총정리](https://futurecreator.github.io/2018/11/09/it-infrastructure-basics/) 하드웨어, 네트워크, OS, 미들웨어, 가상화, 도커 등 인프라의 기초 지식들의 핵심을 아주 깔끔하게 정리한 글. 서버 사이드 개발자라면 이미 알고 있는 내용이 대부분이겠지만 다시 한번 정리한다는 생각으로 읽으면 많은 도움이 될 것 같다.  #인프라
+- [1500개의 테스트를 작성하며 나는 무엇을 얻었나](https://medium.com/@minhyeok4dev/1500%EA%B0%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EB%A9%B0-%EB%82%98%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%84-%EC%96%BB%EC%97%88%EB%82%98-62b9facd53d8)  #test
   - 테스트를 도입해야하는 이유  
       - 개발과정중에 잠재적인 오류를 교정할 수 있다.  
       - 코드 전반의 큰 변화가 필요한 신 기능 개발이나 기술 부채 상환에도 비교적 자신있게 대응할 수 있다  
   - 좋은 테스트 코드 짜기  
       - 테스트 상황이 아닌 동작을 기준으로 분리  
       - 검사문은 최대한 상세하게  
-- [백기선님 스프링 기반 REST API 개발 발표 후기](https://github.com/david-learner/java-study/blob/master/%EB%B0%B1%EA%B8%B0%EC%84%A0%EB%8B%98_%EC%8A%A4%ED%94%84%EB%A7%81_%EA%B8%B0%EB%B0%98_REST_API_%EA%B0%9C%EB%B0%9C/readme.md) 지난주 토요일에 진행했던 스프링 REST API 세미나에서의 핵심 포인트를 잘 짚어주신 글. 듣는 것만으로도 벅차 기록을 못 해서 너무 아쉬웠는데 아주 잘 정리된 글이 올라와서 복기 시 많은 도움이 되었습니다 🙂  #til/세미나
-- [유용한 생산성 툴 몇가지 소개](https://velog.io/@chris/-%EC%9C%A0%EC%9A%A9%ED%95%9C-%EC%83%9D%EC%82%B0%EC%84%B1-%ED%88%B4-%EB%AA%87%EA%B0%80%EC%A7%80-%EC%86%8C%EA%B0%9C-4fjobp3vim) 맥을 사용한지 얼마 안되서 이런 글은 너무 반갑다! Headset, Spectacle, Macs Fan Control 등 유용한 툴이 정말 많다.  #til/tool
-- [‘클라우드 업체도 가세’ 현재 잘 나가는 APM 툴 10선](http://www.ciokorea.com/slideshow/40137) 적시 적소에 알맞은 툴을 적용하기 위해 한 번쯤은 보면 좋을 것 같다.  #til/apm
-- [하루를 충실하게 보내고 싶으세요? 다음 13가지 원칙을 잊지 마세요.](http://newspeppermint.com/2018/10/17/m-day/) 정답은 아니지만 틀린 답도 아닌 원칙들.   #til/삶
+- [백기선님 스프링 기반 REST API 개발 발표 후기](https://github.com/david-learner/java-study/blob/master/%EB%B0%B1%EA%B8%B0%EC%84%A0%EB%8B%98_%EC%8A%A4%ED%94%84%EB%A7%81_%EA%B8%B0%EB%B0%98_REST_API_%EA%B0%9C%EB%B0%9C/readme.md) 지난주 토요일에 진행했던 스프링 REST API 세미나에서의 핵심 포인트를 잘 짚어주신 글. 듣는 것만으로도 벅차 기록을 못 해서 너무 아쉬웠는데 아주 잘 정리된 글이 올라와서 복기 시 많은 도움이 되었습니다 🙂  #세미나
+- [유용한 생산성 툴 몇가지 소개](https://velog.io/@chris/-%EC%9C%A0%EC%9A%A9%ED%95%9C-%EC%83%9D%EC%82%B0%EC%84%B1-%ED%88%B4-%EB%AA%87%EA%B0%80%EC%A7%80-%EC%86%8C%EA%B0%9C-4fjobp3vim) 맥을 사용한지 얼마 안되서 이런 글은 너무 반갑다! Headset, Spectacle, Macs Fan Control 등 유용한 툴이 정말 많다.  #tool
+- [‘클라우드 업체도 가세’ 현재 잘 나가는 APM 툴 10선](http://www.ciokorea.com/slideshow/40137) 적시 적소에 알맞은 툴을 적용하기 위해 한 번쯤은 보면 좋을 것 같다.  #apm
+- [하루를 충실하게 보내고 싶으세요? 다음 13가지 원칙을 잊지 마세요.](http://newspeppermint.com/2018/10/17/m-day/) 정답은 아니지만 틀린 답도 아닌 원칙들.   #삶
   - (1) 매일 아침 그날을 준비할 것  
   - (2) 산책할 것  
   - (3) 몰입할 것  
@@ -83,19 +83,19 @@
   - (11) 하루를 돌아볼 것  
   - (12) 더 큰 대상을 접할 것  
   - (13) 8시간 잠을 잘 것  
-- [좋은 에러 메시지 쓰는 법](https://drive.google.com/file/d/14_O9QJizrfJ7YQ5uZAUUpQ78pGDADnaX/view) 최근 사내 API 서버에서 문제가 있어서 에러 메시지를 통해 원인을 추적하고 있었는데 에러가 난 해당 메소드의에서 모든 예외처리를 똑같은 에러 메시지로 반환하도록 작성되어있는 것을 보고 당황했던 적이 있었다. 이 글에서 설명하는 에러에 관련된 값을 구체적으로 내놓기, 원인을 특정하기 쉽도록 하는 글을 넣기 등을 이용해서 조금 더 상세하게 기록해놨다면 얼마나 좋았을까. 조금씩 바꿔 나가야겠다!   #til/error
-- [단위 테스트 활용 방법: JUnit 참조 가이드](https://brunch.co.kr/@pubjinson/16) 개발자가 단위 테스트를 작성할 때 고려해야 할 사항들을 정리한 글. 마지막 결론에 다음과 같이 말한다. ‘소프트웨어 공학 관련 많은 학자들이 단위 테스트를 작성하는 것이 작성하지 않는 것보다 훨씬 효율적이라고 주장한다. 하지만 난 이 의견에 반대한다. 테스트 케이스들은 훌륭한 자산이다. 하지만 반대도 성립한다. `즉 형편없이 작성된 테스트 케이스들은 프로젝트에 아무런 도움이 되지 않는 골칫거리에 불과하다.` #til/UnitTest
-- [불공평한 장점 Unfair Advantage](https://sungmooncho.com/2018/11/16/unfair-advantage/) What is your unfair advantage? 당신의 불공평한 장점이 무엇인가? 즉, 다른 사람에게는 없고 나에게만 있어서 남들이 불공평하게 느낄만한 장점이 무엇인가? 라는 질문에 나는 무엇이라고 답할 수 있을까?  #til/성장
-- [데이터 엔지니어링 101](https://www.slideshare.net/charsyam2/data-engineering-101) 현재 사내에 데이터 엔지니어링 직군이 따로 없어서 데이터 관련 작업을 백엔드 개발자들이 맡아서 하고 있다. 그래서 나 역시 raw 데이터를 의미 있는 데이터로 추출하는 작업을 종종 하곤 하는데 그래서인지 좀 더 관심이 갔고 재밌게 읽은 자료이다. 데이터 엔지니어링이란 무엇인지 알고 싶다면 읽어보자!  #til/데이터엔지니어링
-- [2018년에 크롬은 정말로 빠를까요?](https://tech.ssut.me/apple-safari-12-versus-google-chrome-72-in-2018/) chrome과 safari 각각의 장단점이 있겠지만 개인적으로는 Safari를 더 선호하는 편.  #til/web
-- [운영을 해 봐야 안다](https://brunch.co.kr/@cleancode/36?f=fp) 운영과 개발을 같이 하는 입장에서 많은 위안이 되는 글이었다. 얼마 전까지만 해도 난 개발에만 집중하고 싶다고 생각했었는데 지금 주어진 상황을 긍정적으로 바라볼 수 있게끔 다른 시각을 제공해주었다.  #til/개발팁 
+- [좋은 에러 메시지 쓰는 법](https://drive.google.com/file/d/14_O9QJizrfJ7YQ5uZAUUpQ78pGDADnaX/view) 최근 사내 API 서버에서 문제가 있어서 에러 메시지를 통해 원인을 추적하고 있었는데 에러가 난 해당 메소드의에서 모든 예외처리를 똑같은 에러 메시지로 반환하도록 작성되어있는 것을 보고 당황했던 적이 있었다. 이 글에서 설명하는 에러에 관련된 값을 구체적으로 내놓기, 원인을 특정하기 쉽도록 하는 글을 넣기 등을 이용해서 조금 더 상세하게 기록해놨다면 얼마나 좋았을까. 조금씩 바꿔 나가야겠다!   #error
+- [단위 테스트 활용 방법: JUnit 참조 가이드](https://brunch.co.kr/@pubjinson/16) 개발자가 단위 테스트를 작성할 때 고려해야 할 사항들을 정리한 글. 마지막 결론에 다음과 같이 말한다. ‘소프트웨어 공학 관련 많은 학자들이 단위 테스트를 작성하는 것이 작성하지 않는 것보다 훨씬 효율적이라고 주장한다. 하지만 난 이 의견에 반대한다. 테스트 케이스들은 훌륭한 자산이다. 하지만 반대도 성립한다. `즉 형편없이 작성된 테스트 케이스들은 프로젝트에 아무런 도움이 되지 않는 골칫거리에 불과하다.` #UnitTest
+- [불공평한 장점 Unfair Advantage](https://sungmooncho.com/2018/11/16/unfair-advantage/) What is your unfair advantage? 당신의 불공평한 장점이 무엇인가? 즉, 다른 사람에게는 없고 나에게만 있어서 남들이 불공평하게 느낄만한 장점이 무엇인가? 라는 질문에 나는 무엇이라고 답할 수 있을까?  #성장
+- [데이터 엔지니어링 101](https://www.slideshare.net/charsyam2/data-engineering-101) 현재 사내에 데이터 엔지니어링 직군이 따로 없어서 데이터 관련 작업을 백엔드 개발자들이 맡아서 하고 있다. 그래서 나 역시 raw 데이터를 의미 있는 데이터로 추출하는 작업을 종종 하곤 하는데 그래서인지 좀 더 관심이 갔고 재밌게 읽은 자료이다. 데이터 엔지니어링이란 무엇인지 알고 싶다면 읽어보자!  #데이터엔지니어링
+- [2018년에 크롬은 정말로 빠를까요?](https://tech.ssut.me/apple-safari-12-versus-google-chrome-72-in-2018/) chrome과 safari 각각의 장단점이 있겠지만 개인적으로는 Safari를 더 선호하는 편.  #web
+- [운영을 해 봐야 안다](https://brunch.co.kr/@cleancode/36?f=fp) 운영과 개발을 같이 하는 입장에서 많은 위안이 되는 글이었다. 얼마 전까지만 해도 난 개발에만 집중하고 싶다고 생각했었는데 지금 주어진 상황을 긍정적으로 바라볼 수 있게끔 다른 시각을 제공해주었다.  #개발팁 
   - 그분에게 어떤 업무를 하고 싶냐고 물었더니 “운영”이라고 했었다. 처음엔 “운영이라니… 뛰어난 역량을 가지고 있으니 중요한 개발을 해야지”라는 생각이 들면서, 실망감이 들었다.  
   - 하지만 후에 보니 그분은 그 개발팀에서 변화를 만들면서 지속 개선을 하고 있었고, 이 모든 업무들이 그분의 뛰어난 개발 역량(애자일 업무 방식, CI/CD, 설계, 코딩 등)을 통해 이뤄지고 있었다.  
   - 역시 서비스 운영을 해봐야 한다.  
       - 어떻게 하는 것이 잘하는 것인지? 무엇을 해야 하는지?가 잘 보인다.  
-- [GDG seoul. 디자이너의 눈과 생각 빌리기: 개발자를 위한 디자인 특강](https://www.slideshare.net/jisunpark13/gdg-seoul) 개인적으로 항상 궁금해했던 내용인데 앞으로 자주 유용하게 쓰일 것 같다. 발표 자료 공유해주신 분 정말 감사합니다 🙂   #til/디자인
-- [프로젝트가 장난이야? 우아한형제들 기술 블로그](http://woowabros.github.io/experience/2018/11/12/toy-project.html) 토이 프로젝트를 진행하며 실제 프레임워크를 하나씩 들여다보며 삽질한 경험 덕분에 컨퍼런스에서 연사 발표까지 한 경험과 백엔드 개발자이지만 개인 프로젝트로 VueJS를 공부한 덕분에 사내 ADMIN도 뚝딱 만들었다는 경험들이 매우 인상 깊었다. 개발자라면 토이프로젝트를 무조건 해야 하는 것은 아니지만 하고 있는 개발자는 분명 더 많은 경험을 할 수 있는 개발자라는 것을 기억하자. 또 하나의 인사이트를 제공해주는 멋진 글.  #til/사이드프로젝트
-- [개발자가 바라보는 자바의 미래 - 허광남](https://docs.google.com/presentation/d/1hoH0p3g4j46Hnmkz6_WUddvhQEczXdoqxCzJI8v2_wg/mobilepresent?slide=id.p) 실제 발표를 들었으면 더 좋았을 것 같다는 생각이 들지만 발표 자료에서 여러 키워드와 링크들을 제공해줘서 하나씩 보면 많은 도움이 될 것 같다.  #til/java
-- [2018 벤 에반스 발표 - The End Of the Beginning 요약](https://m.blog.naver.com/PostView.nhn?blogId=sttora2&logNo=221401858255&proxyReferer=https%3A%2F%2Ft.co%2FXNUwkBFjLw%3Famp%3D1) 앞으로 인터넷 비지니스 사업이 어떤 방향으로 흘러갈 것인지 새로운 인사이트를 제공해주는 글. `머신러닝과 크립토의 등장은, 인터넷의 가치를 훨씬 더 배가시켜줄 것이다.`, `인터넷 비즈니스는 광고와 커머스에 국한되는 것이 아님. 이제 그 ‘시작’이 겨우 끝난 셈.`   #til/web
-- [아마존웹서비스, 자체 자바개발도구 ‘코레토’ 공개](http://m.zdnet.co.kr/news_view.asp?article_id=20181116141624&re=zdk#imadnews) 코레토8이 현재는 베타버전이고 내년 1분기 내 정신버전(GA)이 공개된다고 한다. LTS 버전만 지원할 예정이고 AWS를 사용한다면 굳이 다른 배포본을 가져올 필요가 없을 것으로 보인다.  #til/java
-- [컨퍼런스에서 발표를 해보자](https://medium.com/@Jbee_/컨퍼런스에서-발표를-해보자-2ed22eb59f7f) Jbee(글쓴이)님이 느낀 것처럼 나도 발표를 마친 후 밀려오는 뿌듯함을 한번 느껴보고 싶다는 생각이 들었다. 발생했던 이슈들을 기록하고 비슷한 분류로 묶어서 한 가지 주제로 응집하면 그것이 발표 주제가 될 수 있다. 평소에 개발하면서 발생했던 이슈들을 하나씩 기록하면서 쌓아 나가야겠다. #til/세미나
+- [GDG seoul. 디자이너의 눈과 생각 빌리기: 개발자를 위한 디자인 특강](https://www.slideshare.net/jisunpark13/gdg-seoul) 개인적으로 항상 궁금해했던 내용인데 앞으로 자주 유용하게 쓰일 것 같다. 발표 자료 공유해주신 분 정말 감사합니다 🙂   #디자인
+- [프로젝트가 장난이야? 우아한형제들 기술 블로그](http://woowabros.github.io/experience/2018/11/12/toy-project.html) 토이 프로젝트를 진행하며 실제 프레임워크를 하나씩 들여다보며 삽질한 경험 덕분에 컨퍼런스에서 연사 발표까지 한 경험과 백엔드 개발자이지만 개인 프로젝트로 VueJS를 공부한 덕분에 사내 ADMIN도 뚝딱 만들었다는 경험들이 매우 인상 깊었다. 개발자라면 토이프로젝트를 무조건 해야 하는 것은 아니지만 하고 있는 개발자는 분명 더 많은 경험을 할 수 있는 개발자라는 것을 기억하자. 또 하나의 인사이트를 제공해주는 멋진 글.  #사이드프로젝트
+- [개발자가 바라보는 자바의 미래 - 허광남](https://docs.google.com/presentation/d/1hoH0p3g4j46Hnmkz6_WUddvhQEczXdoqxCzJI8v2_wg/mobilepresent?slide=id.p) 실제 발표를 들었으면 더 좋았을 것 같다는 생각이 들지만 발표 자료에서 여러 키워드와 링크들을 제공해줘서 하나씩 보면 많은 도움이 될 것 같다.  #java
+- [2018 벤 에반스 발표 - The End Of the Beginning 요약](https://m.blog.naver.com/PostView.nhn?blogId=sttora2&logNo=221401858255&proxyReferer=https%3A%2F%2Ft.co%2FXNUwkBFjLw%3Famp%3D1) 앞으로 인터넷 비지니스 사업이 어떤 방향으로 흘러갈 것인지 새로운 인사이트를 제공해주는 글. `머신러닝과 크립토의 등장은, 인터넷의 가치를 훨씬 더 배가시켜줄 것이다.`, `인터넷 비즈니스는 광고와 커머스에 국한되는 것이 아님. 이제 그 ‘시작’이 겨우 끝난 셈.`   #web
+- [아마존웹서비스, 자체 자바개발도구 ‘코레토’ 공개](http://m.zdnet.co.kr/news_view.asp?article_id=20181116141624&re=zdk#imadnews) 코레토8이 현재는 베타버전이고 내년 1분기 내 정신버전(GA)이 공개된다고 한다. LTS 버전만 지원할 예정이고 AWS를 사용한다면 굳이 다른 배포본을 가져올 필요가 없을 것으로 보인다.  #java
+- [컨퍼런스에서 발표를 해보자](https://medium.com/@Jbee_/컨퍼런스에서-발표를-해보자-2ed22eb59f7f) Jbee(글쓴이)님이 느낀 것처럼 나도 발표를 마친 후 밀려오는 뿌듯함을 한번 느껴보고 싶다는 생각이 들었다. 발생했던 이슈들을 기록하고 비슷한 분류로 묶어서 한 가지 주제로 응집하면 그것이 발표 주제가 될 수 있다. 평소에 개발하면서 발생했던 이슈들을 하나씩 기록하면서 쌓아 나가야겠다. #세미나
