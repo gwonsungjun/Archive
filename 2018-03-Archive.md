@@ -1,0 +1,37 @@
+#  2018 / 3월 Archive
+- [폭군길냥의 블로그 - 2017년 회고 ](https://hue9010.github.io/til/2017%EB%85%84%EC%9D%84-%ED%9A%8C%EA%B3%A0%ED%95%98%EB%A9%B0/) , 새해에 계획을 세웠지만 봄이 되면서 다시 한번 계획을 수정하기 위해 참고했는데 많은 도움이 됐던 글. #회고
+- [당신이 좋은 프로그래머라는 징표](http://jhrogue.blogspot.kr/2012/06/b.html), 좋은 프로그래머, 환상적인 프로그래머의 특징들을 재미있게 볼 수 있는 글. 나도 몇 개 해당하긴 한다? #프로그래머
+- [윈도우 10 우분투에 ZSH 사용하기](http://blog.weirdx.io/post/52699), Windows 10에서도 ubuntu를 사용할 수 있다는 건 예전부터 들었었는데, 실제로 사용해볼 일이 있어서 찾던 중 발견한 이상한모임 블로그의 글. 글쓴이의 글들을 보면 windows 10에서 ubuntu설치하고 zsh 사용, 도커 설치 등의 글들을 볼 수 있다. #윈도우
+- [저축해라. 아껴써라. 이말은 틀렸다.](http://1boon.kakao.com/changeground/money0925) 나를 위한 투자? #저축
+- [Gradle + SpringBoot + Travis CI + Coveralls + 텔레그램 연동하기](http://jojoldu.tistory.com/275) 현재 개인프로젝트를 진행함에 있어서 정말 필요한것 #springboot
+- [IT 회사 탐방기 발표자료](https://drive.google.com/file/d/1fbVY7GeKf6iSBCNuYwaSaq58hbI5_O-_/view) okky 세미나에 참석은 못 했지만 발표자료와 후기 글을 보며 간접 체험할 수 있음. 소중한 정보 공유해주셔서 감사합니다. #세미나
+- [자바 테스트 자동화](https://www.slideshare.net/gyumee/ss-90206560) 자바 테스트 자동화에 대해 정리가 아주 잘되어있는 자료 #java
+- [DevOps Service: Travis CI](http://www.sauru.so/blog/travis-ci/) Travis CI에 대해서 설명이 잘 되어있는 글 #devops
+- [개발자의 흔한 취미 : 오픈소스 개발](https://speakerdeck.com/mingrammer/gaebaljayi-heunhan-cwimi-opeunsoseu-gaebal) mingrammer님의 오픈소스 개발 발표자료! 오픈소스 개발 해보고싶다.. 해보자!! #opensource
+- [개발자에게 좋은 회사란?](https://okky.kr/article/446114) ‘좋은 소프트웨어 회사’는 ‘개발자들에게 좋은 회사’ #프로그래머
+- [정보생산자가 되기](https://steemit.com/itstudy/@lectorist/3ac57d-it) 정보소비자가 아닌 정보생상자가 되자. #공부법
+- [스타트업/소규모 회사 사무실 네트워크 구축하기.](http://blog.weirdx.io/post/36097) 소소하게 읽어 볼 수 있는 잘 정리된 글 #스타트업
+- [28세 요우의 개발자 이직 대탐험](http://luckyyowu.tistory.com/382) 이직 준비시 도움될 꿀같은 정보 #이직
+- [좋은 git 커밋 메시지를 작성하기 위한 7가지 약속](http://meetup.toast.com/posts/106) #git
+- [Git 커밋 메시지 작성법](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/) 좋은 git 커밋 메시지를 작성하기 위해 필수 글. #git
+- [docker 시작하기](http://www.sauru.so/blog/getting-started-with-docker/) 도커 기본 개념 잡기 좋음 #docker
+- [OAuth와 춤을](http://d2.naver.com/helloworld/24942) 개인 프로젝트 진행시 OAuth를 도입하기 위해 찾아 보던 중 아주 잘 정리되어있던 글 #oauth
+- [제 2회 NAVER OpenSource Seminar 참석 후기](http://jay-ji.tistory.com/m/27) #세미나
+- [먹고 코딩하고 사랑하기, 오래하려면 어떻게 해야할까 by KSUG 참여 후기](http://jojoldu.tistory.com/24)  #세미나
+- [ IT 회사 탐방기 세미나 참석후기](http://jojoldu.tistory.com/274) 여러 세미나 후기들, 간접적으로 체험할 수 있게 항상 후기를 작성해시는 분들에게 감사합니다 #세미나
+- [1000 개의 코드 리뷰를 통해 배운 점](https://www.vobour.com/1000-%EA%B0%9C%EC%9D%98-%EC%BD%94%EB%93%9C-%EB%A6%AC%EB%B7%B0%EB%A5%BC-%ED%86%B5%ED%95%B4-%EB%B0%B0%EC%9A%B4-%EC%A0%90-what-i-learned-f) #코드리뷰
+	- 무언가 이상하다면 예외(exception)을 던져라(throw)
+	- 가능한 가장 구체적인 타입(type)을 사용하라
+	- null 대신에 Optionals를 사용하라
+	- 컨테이너 타입을 피하자
+- [Test Driven Development (TDD) basic](https://www.slideshare.net/CurtPark1/test-driven-development-tdd-basic/) - TDD 기초 slideshare #TDD
+- [새로운 회사, 새로운 역할, 새로운 분야](https://blog.outsider.ne.kr/1361) outsider님의 이직 이야기 #이직
+- [개발 관련 정보를 얻는 꿀팁.](https://nesoy.github.io/articles/2018-03/How-get-devinfo#) #프로그래머
+	- GitHub Star를 표시한 프로젝트
+	- feedly 사용하여 기술 Blog 구독
+	- slideshare
+	- 책
+- [(번역)소프트웨어 집단의 부패:Expert Beginner의 유산](https://medium.com/@jwyeom63/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%A7%91%EB%8B%A8%EC%9D%98-%EB%B6%80%ED%8C%A8-expert-beginner%EC%9D%98-%EC%9C%A0%EC%82%B0-9d226b6ebde2), 당신의 그룹이 성장하고 있지 않다면, 부패하고 있는 것이다. #soft-skill
+- [3번째 직장에 오기까지 - 1. 국비교육기간](http://jojoldu.tistory.com/277) 창천향로님이 취업/이직 준비를 어떻게 했었는지 알 수 있는글들 중 첫번째 글인데 공감 가는부분도 꽤 많았다. #이직
+- [스타트업에서 스케일업으로](https://rgpkorea.github.io/posts/rgpkorea-startup-to-scaleup/) 요기요&배달통의 변화와 성장을 볼 수 있는 글 #스타트업
+
